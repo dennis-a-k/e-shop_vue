@@ -98,7 +98,6 @@ header {
   line-height: 40px;
   text-decoration: none;
   outline: none;
-  cursor: pointer;
   transition: all ease-in-out .4s;
 }
 .button-no:hover {
@@ -207,13 +206,13 @@ main {
 .product-item img {
   width: 70%;
 }
-.product-item h3 {
+.product-title {
   font-size: 22px;
   font-weight: 600;
   color: #112e41;
   margin-top: 15px;
 }
-.product-item p {
+.product-price {
   font-size: 18px;
   font-weight: 300;
   color: #ff7214;

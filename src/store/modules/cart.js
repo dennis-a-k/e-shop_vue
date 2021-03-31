@@ -1,5 +1,4 @@
 export default {
-  actions: {},
   mutations: {
     addProduct (state, product) {
       const find = state.products.find(el => el.id === product.id)
