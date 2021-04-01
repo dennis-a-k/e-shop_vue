@@ -14,8 +14,6 @@
         <p id="product-price">{{ product.quantity * product.price }} ₽</p>
         <button class="minus-plus" @click="dellProduct(product)">&#8722;</button>
       </div>
-      <hr>
-      <div class="text-right"><button class="button">Оформить</button></div>
     </div>
   </div>
 </template>
