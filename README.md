@@ -1,24 +1,8 @@
 # e-shop_vue
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+#### Самостоятельная работа
+- Создал небольшое приложение с использованием vuex и vue-router
+- Реализовал вывод товара с базы данных firebase с переходом в карточку товара и кнопкой добавления в корзину
+- Сделал карточку товара с кнопкой добавления в корзину
+- Реализовал корзину с выводом общей стоимостью товаров, с возможностью увеличения и уменьшения количества позиции товара, а так же удаления товара из корзины
+#### [Посмотреть e-shop_vue](https://cli.vuejs.org/config/)
