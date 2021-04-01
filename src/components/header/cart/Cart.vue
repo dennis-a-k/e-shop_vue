@@ -1,5 +1,5 @@
 <template>
-  <div class="text-right">
+  <div>
     <button class="button-no" type="button" @click="showCart = !showCart" v-if="!productsCart.length">
       Корзина
     </button>

@@ -17,7 +17,7 @@ header {
 }
 .header {
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
   position: relative;
 }
@@ -128,7 +128,6 @@ header {
   background-color: white;
   padding: 20px;
   width: 350px;
-  z-index: 1;
 }
 .cart-block:before{
   content: '';

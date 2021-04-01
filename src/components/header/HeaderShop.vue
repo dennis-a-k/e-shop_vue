@@ -7,18 +7,21 @@
           Интернет магазин
         </span>
       </router-link>
+      <Search />
       <Cart />
+      <!-- <router-link to="/about">About</router-link> -->
     </div>
   </header>
 </template>
 
 <script>
+import Search from '@/components/header/Search'
 import Cart from '@/components/header/cart/Cart'
 
 export default {
   name: 'headerShop',
   components: {
-    Cart
+    Search, Cart
   }
 }
 </script>
